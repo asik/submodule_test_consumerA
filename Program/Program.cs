@@ -2,5 +2,5 @@
 
 using CommonLib;
 
-var stuff = CommonApi.MyApi(new Input("A", 2, 3));
+var stuff = CommonApi.MyApi(new Input("A", 2, 3, "D"));
 Console.WriteLine(stuff);
